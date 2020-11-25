@@ -16,8 +16,8 @@ public class check {
         
         String st,st1="";
  
-        File file = new File("/home/kunal/workplace/netbeans-project/Scheduler/src/res/path.txt");
-        FileWriter wr=new FileWriter("/home/kunal/workplace/netbeans-project/Scheduler/src/res/path.txt");
+        File file = new File("/home/shubham/workplace/netbeans-project/Scheduler/src/res/path.txt");
+        FileWriter wr=new FileWriter("/home/shubham/workplace/netbeans-project/Scheduler/src/res/path.txt");
 
         
         BufferedReader br = new BufferedReader(new FileReader(file));
@@ -29,7 +29,7 @@ public class check {
         
         
         System.out.println(st1);
-        String st2="kunal";
+        String st2="shubham";
         wr.write(st2);
         
     }
