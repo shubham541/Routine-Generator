@@ -9,7 +9,7 @@ import java.io.IOException;
 
 /**
  *
- * @author kunal
+ * @author shubham
  */
 public class check {
     public static void main(String[] args) throws IOException{
